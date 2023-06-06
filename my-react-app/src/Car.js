@@ -1,5 +1,5 @@
-function Car() {
- return <h2>Hi, I'm a Car!</h2>
+function Car(props) {
+ return <li>I am a {props.brand}</li>
 }
 
 export default Car;
