@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Garage from './Garage.js';
+import MyForm from './MyForm.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Garage />);
+root.render(<MyForm />);
